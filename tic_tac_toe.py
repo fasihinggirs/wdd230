@@ -2,7 +2,7 @@
 in alternate turns to complete a row, a column, or a 
 diagonal with either three x's or three o's drawn in 
 the spaces of a grid of nine squares.
-Author: Eric Costa"""
+Author: Immanuel Nggiku"""
 # Define the main function to print the lists and
 # request user inputs.
 
