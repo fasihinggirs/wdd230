@@ -1,7 +1,5 @@
-"""This is the Tic-Tac-Toe game in which two players seek
-in alternate turns to complete a row, a column, or a 
-diagonal with either three x's or three o's drawn in 
-the spaces of a grid of nine squares.
+"""This is the Tic-Tac-Toe game, wherein two players will take turns completing a line,
+section, or horizontal with three x's or multiple o's drawn in the rooms of a 9 grid.
 Author: Immanuel Nggiku"""
 # Define the main function to print the lists and
 # request user inputs.
