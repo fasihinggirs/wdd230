@@ -6,7 +6,6 @@ body {
 header, nav, main, footer{
     margin: 1.25rem auto;
     max-width: 760px;
-
 }
 
 header, footer {
@@ -15,7 +14,6 @@ header, footer {
    color: azure;
    text-align: center;
    padding: 1.5rem;
-
 }
 
 p image {
@@ -23,7 +21,6 @@ p image {
     float: right;
     margin: 10px;
     border: 1px solid #000;
-
 }
 
 
