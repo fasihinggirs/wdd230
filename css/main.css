@@ -14,13 +14,14 @@ header, footer {
    color: azure;
    text-align: center;
    padding: 1.5rem;
+   box-shadow: 5px 10px #888888;
 }
 
-p image {
+image {
 
-    float: right;
+    float: left;
     margin: 10px;
     border: 1px solid #000;
+    box-shadow: 5px 10px #888888;
+
 }
-
-
