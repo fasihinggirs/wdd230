@@ -19,7 +19,7 @@ header, footer {
 
 image {
 
-    float: left;
+    flex-flow: left;
     margin: 10px;
     border: 1px solid #000;
     box-shadow: 5px 10px #888888;
