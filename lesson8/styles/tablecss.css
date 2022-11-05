@@ -1,0 +1,61 @@
+html {
+    font-size: 1.5em;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border: solid black;
+    background-color: blue;
+    border-collapse: collapse;
+}
+
+td, td {
+    padding: 15px;
+    border: 2px solid;
+}
+
+
+#title {
+    background-color: whitesmoke;
+}
+
+th {
+    background-color: yellowgreen;
+    padding: 10px 10px;
+    border: solid;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #00000030;
+}
+
+tr:nth-child(odd) td {
+    background-color: #00000010;
+}
+
+tr td.highlight {
+    background-color: yellowgreen;
+}
+
+figcaption {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 500px) {
+    html {
+        font-size: 1.2em;
+    }
+    figcaption {
+        font-size: 0.8em;
+    }
+}
