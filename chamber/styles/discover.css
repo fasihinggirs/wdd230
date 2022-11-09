@@ -1,0 +1,33 @@
+main {
+    display: block;
+}
+
+main section {
+    min-height: auto;
+}
+
+main img {
+    max-width: 500px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    main {
+        padding: 10px 20%;
+    }
+    main section p {
+        padding: 0 100px;
+    }
+    main img {
+        max-width: 200px;
+        border-radius: 50px;
+        filter: grayscale(1);
+    }
+    
+    main img:hover {
+        max-width: 500px;
+        border-radius: 5px;
+        filter: none;
+        transition-duration: .5s;
+    }
+}

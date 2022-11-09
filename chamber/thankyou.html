@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Home Page</title>
+    <title>Thank You!</title>
     <meta name="description" content="Home page for Chamber of Commerce website. Created for a school assignment.">
     
     <!-- CSS Link -->
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
     <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
     <link rel="stylesheet" href="/wdd230/chamber/styles/large.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/thankyou.css">
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
                 >
         </a>
         <h1>Osaka Chamber Digital Assistance</h1>
-        <p class="headerdate">Current Date: <span id='currentdate'></span></p>
+        <p class="headerdate">Current Date: <span id="currentdate"></span></p>
         <p id="pmeetandgreet"><span id="meetandgreet"></span></p>
         
         <nav>
@@ -40,49 +41,17 @@
         </nav>
     </header>
     <main>
-        <section id="cta">
-            <img src="/wdd230/chamber/images/business.jpg" 
-                alt="Hero img"
-                srcset="/wdd230/chamber/images/business.jpg 3x,
-                        /wdd230/chamber/images/business.jpg 2x,
-                        /wdd230/chamber/images/business.jpg 1x"                        
-            >
-            <!-- <p>call to action section</p> -->
-        </section>
-        <section id="news">
-            <p>News section</p>
-        </section>
-        <section id="events">
-            <p>Events section</p>
-        </section>
-        <section id="weather">
-            <h2>Popular Weather</h2>
-            <div class="weather-top">
-                <picture>
-                    <img id="weather-img" src="/wdd230/chamber/images/discover/cloudy.png" alt="Sun and cloud">
-                </picture>
-                <p><span class="degrees"></span>°</p>
-            </div>
-                <div class="weather-center">
-                  <p>Partly Cloudy</p>
-                </div>
-                <div class="weather-bottom">  
-                    <p>Speed: <span class="speed"></span></p>
-                    <p>Wind Chill: <span class="wind"></span></p>
-                </div>
-                <script src="scripts/currentdate.js"></script>
-        </section>
-        <div id="spotlight-box">
-            <section class="spotlight" id="sl1">
-                <p>First Bright Spotlight</p>
-            </section>
-            <section class="spotlight" id="sl2">
-                <p>Second Bright Spotlight</p>
-            </section>
-            <section class="spotlight" id="sl3">
-                <p>Third Spotlight</p>
-            </section>
-        </div>
+        <h2>
+            Osaka Chamber Digital Assistance Application
+        </h2>
+        <br>
+        <p>
+         We just want to say thank you very much to spend time together with us. Hopefully we are able to work together in the future. 
+        </p>
+
+
+        
+
 
     </main>
     <footer>
@@ -93,9 +62,10 @@
         </div>
         <a href="#">Location</a>
         <div id="base">
-            <p>&copy; 2022 <br> Osaka Chamber Digital Assistance <br> WDD230 Immanuel Nggiku | All right reserved | </p>
+            <p>&copy; 2022 <br> Osaka Chamber Digital Assistance <br> Immanuel Nggiku <br> WDD 230 Project</p>
         </div>
         <p class="date"><span id="date1"></span></p>
+        <script src="scripts/currentdate.js"></script>
     </footer>
 </body>
 </html>
