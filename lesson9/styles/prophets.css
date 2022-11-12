@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+:root {
+    --heading-font: 'Rubik', sans-serif;
+
+    --primary-color: #47495a;
+    --secondary-color: #0D324D;
+    --accent-color1: #9DA2AB;
+    --accent-color2: #edf0f4;
+
+    --box-shadow: 5px 5px 5px #777777,
+                -5px -5px 5px #ffffff;
+
+}
+
+html {
+    font-family: var(--heading-font);
+    background-color: var(--accent-color2);
+    color: var(--primary-color);
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h1, section, footer {
+    margin: 10px auto;
+    text-align: center;
+}
+
+h2, h1 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    
+}
+
+.cards section {
+    border-radius: 30px;
+    background: var(--accent-color2);
+    box-shadow: var(--box-shadow);
+}
+
+.cards section {
+    padding: 1.5em;
+    margin: 1em;
+    max-width: 500px;
+}
+
+.cards section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards section img:hover {
+    box-shadow: var(--box-shadow);
+    transition: .5s;
+}
