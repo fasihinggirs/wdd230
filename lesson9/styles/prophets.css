@@ -3,10 +3,10 @@
 :root {
     --heading-font: 'Rubik', sans-serif;
 
-    --primary-color: #47495a;
-    --secondary-color: #0D324D;
-    --accent-color1: #9DA2AB;
-    --accent-color2: #edf0f4;
+    --primary-color: #CFF5E7;
+    --secondary-color: #A0E4CB;
+    --accent-color1: #59C1BD;
+    --accent-color2: #0D4C92;
 
     --box-shadow: 5px 5px 5px #777777,
                 -5px -5px 5px #ffffff;
