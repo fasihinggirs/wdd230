@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chamber Home Page</title>
-        <meta name="description" content="Home page for Chamber of Commerce website. Created for a school assignment.">
-        
-        <!-- CSS Link -->
-        <link rel="icon" type="image/png" href="/wdd230/chamber/images/logodesign.png" sizes="16x16" />
-        <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
-        <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
-        <link rel="stylesheet" href="/wdd230/chamber/styles/large.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="description" content="Home page for Chamber of Commerce website. Created for a school assignment.">
+    
+    <!-- CSS Link -->
+    <link rel="icon" type="image/png" href="/wdd230/chamber/images/logodesign.png" sizes="16x16" />
+    <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/large.css">
+</head>
 <body>
     <header>
         <a href="/wdd230/chamber/index.html">
@@ -25,7 +25,7 @@
                 >
         </a>
         <h1>Osaka Chamber Digital Assistance</h1>
-        <p class="headerdate">Current Date: <span id='currentdate'></span></p>
+        <p class="headerdate">Current Date: <span id="currentdate"></span></p>
         <p id="pmeetandgreet"><span id="meetandgreet"></span></p>
         
         <nav>
@@ -33,7 +33,7 @@
             <ul id="primaryNav">
                 <li><a href="#" id="open-tab">Home</a></li>
                 <li><a href="/wdd230/chamber/discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="/wdd230/chamber/directory.html">Directory</a></li>
                 <li><a href="/wdd230/chamber/join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -45,21 +45,21 @@
                 alt="Hero img"
                 srcset="/wdd230/chamber/images/business.jpg 3x,
                         /wdd230/chamber/images/business.jpg 2x,
-                        /wdd230/chamber/images/business.jpg 1x"                        
+                        /wdd230/chamber/images/business.jpg 1x"                       
             >
             <!-- <p>call to action section</p> -->
         </section>
         <section id="news">
-            <p>News section</p>
+            <p>news section</p>
         </section>
         <section id="events">
-            <p>Events section</p>
+            <p>events section</p>
         </section>
         <section id="weather">
-            <h2>Popular Weather</h2>
+            <h2>Weather</h2>
             <div class="weather-top">
                 <picture>
-                    <img id="weather-img" src="/wdd230/chamber/images/discover/cloudy.png" alt="Sun and cloud">
+                    <img id="weather-img" src="/wdd230/chamber/images/weather.png" alt="Sun and cloud">
                 </picture>
                 <p><span class="degrees"></span>°</p>
             </div>
@@ -70,7 +70,7 @@
                     <p>Speed: <span class="speed"></span></p>
                     <p>Wind Chill: <span class="wind"></span></p>
                 </div>
-                <script src="scripts/currentdate.js"></script>
+                <script src="/wdd230/chamber/scripts/windchill.js"></script>
         </section>
         <div id="spotlight-box">
             <section class="spotlight" id="sl1">

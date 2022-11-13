@@ -10,6 +10,10 @@ const speedmH = speedkh / 1.609;
 console.log(tempF);
 console.log(speedmH);
 
+//toLacalDateString
+const options = {weekday: 'long', day: 'numeric', month:'long', year:'numeric'};
+document.getElementById('currentdate').textContent = new Date().toLocaleDateString ('en-US', options);
+
 
 if (tempF <= 50 && speedmH > 3) {
     const f = 35.74 + 0.6215 * tempF - 35.75 * (speedmH ** 0.16) + 0.4275 * tempF * (speedmH ** 0.16)
