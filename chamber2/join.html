@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Join Page in WDD 230</title>
+    <meta
+      name="description"
+      content="Chamber Join Page in WDD 230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel = "shortcut icon" href = "images/logodesign.png">
+  </head>
+  
+  <body>
+    <header>
+        <div class="logo">
+            <img
+              src="images/logodesign.png"
+              alt="Logo image"
+              width="100" 
+              
+            >
+          </div>
+          <div class="icon"><a href="http://www.facebook.com" target="_blank"><img src="images/facebook_icon.png" alt="Facebook icon" width="30"></a></div>
+    <div class="twitter_icon"><a href="http://www.instagram.com" target="_blank"><img src="images/inst.png" alt="Instagram icon" width="30"></a></div>
+    
+    
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul id="primaryNav">
+            <li class="active"><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="discover.html">Discover</a></li>
+            <li class="active"><a class="nav-link" href="directory.html">Directory</a></li>
+            <li class="join"><a class="nav-link" href="join.html">Join</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>     
+        </ul>
+    </nav>
+        
+    </header>
+
+    <div id="banner">
+        <img src="images/logopake.jpeg" width="100%" alt="City image"> 
+        <div id="info">
+         <h2>Osaka Chamber Commerce Virtual</h2>
+         <p id="today"></p>
+        </div>
+     </div>
+
+     <!-- MAIN -->
+     
+     <main id="joinpage">
+        <div id="form">
+        <form method="get" action="thankyou.html">
+            <h1>Membership application form</h1>
+            <div class="legend">Membership Info</div>
+            <fieldset>
+                <label class="top">&nbsp;&nbsp;First name<span class="red">*</span> <input type="text" name="fname" id="fname" required></label>
+                <label class="top">&nbsp;&nbsp;Last name<span class="red">*</span><input type="text" name="lname" id="lname" required></label>
+                <label class="top"><span class ="tooltip">&nbsp;&nbsp;Title <span class="blue">&#9432;</span> <span class="tooltiptext">Please enter your business position. Min 7 characters. Letters, hyphens or space only</span></span>
+                    <input type="text" name="title" pattern="[A-Za-z -]{7,}" placeholder="min 7 ch-rs, letters, hyphens and space" id="title"></label>
+                <label class="top">&nbsp;&nbsp;Email<span class="red">*</span> <input type="email" name="email" placeholder="example@gmail.com" id="email" required></label>
+                <label class="top">&nbsp;&nbsp;Phone <input type="tel" name="phone" placeholder="1235551234" id="phone"></label> 
+            </fieldset>
+            <div class="legend">Investment Info</div>
+            <fieldset>
+                <label class="top"><span class ="tooltip">&nbsp;&nbsp;Business name<span class="red">*</span> <span class="blue">&#9432;</span> <span class="tooltiptext">Please enter company's name</span></span>
+                    <input type="text" name="bname" id="bname" required></label>
+                
+                    <div id="membership"><span class ="tooltip">&nbsp;&nbsp;Membership Level <span class="blue">&#9432;</span> <span class="tooltiptext">Please refer to the Membership Level Table</span></span></div>
+                <label class="sbs"><input class="membership" type="radio" name="membership" id="np" value="np"><span class ="tooltip">&nbsp;NP Membership <span class="cost">(free)</span> <span class="blue">&#9432;</span><span class="tooltiptext"> Non profit organizations</span></span></label>
+                <label class="sbs"><input class="membership" type="radio" name="membership" id="bronze" value="bronze"> Bronze Membership <span class="cost">($200 yearly)</span></label>
+                <label class="sbs"><input class="membership" type="radio" name="membership" id="silver" value="silver"> Silver Membership <span class="cost">($400 yearly)</span></label>
+                <label class="sbs"><input class="membership" type="radio" name="membership" id="gold" value="gold"> Gold Membership <span class="cost">($600 yearly)</span></label>
+
+                <label class="top" id="description">&nbsp;&nbsp;<span class ="tooltip">&nbsp;Description <span class="blue">&#9432;</span><span class="tooltiptext"> Please briefly describe your business</span></span><br> <textarea name="description" rows="8" id="description1"></textarea></label>
+            </fieldset>
+
+            <input type="hidden" id="date" name="date" value="CurrentTime">
+
+            <input type="submit" value="Join The Chamber " class="submitBtn" onclick="getDate(), getInfo()">  
+        </form> 
+        </div>
+        
+        <!-- -------TABLE------- -->
+        
+        <table>
+            <caption>Membership Types</caption>
+            <thead>
+                <tr>
+                    <th scope="col" id="notdisplay"></th>
+                    <th scope="col" id="hfirst" >Non <br>Profit</th>
+                    <th scope="col" id = "hsecond">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Exercises</td>
+                    <td>&#10003;</td>
+                    <td>&#x2713;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Friends and Family</td>
+                    <td>&#10003;</td>
+                    <td>&#x2713;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                
+                <tr>
+                    <td>Friends to Friends <br>Sale 30%</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Workers<br>City</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Teaching Assitant</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Paper Based Electronic</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Weekly News</td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Advertisments</td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Gathering Event</td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Recruting Online</td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Values<br> People</td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Marketing target</td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <tr>
+                    <td>Sponsorship <br>Labels</td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <td>Treat <br> Tracks</td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                    <td>&check;</td>
+                </tr>
+                <td>Birthday <br>Party</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                </tr>
+                <td>Reunion <br>in Osaka</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                </tr>
+                <td>Scholarship<br>Events</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                </tr>
+                <td>Jobs<br> dedication</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>&check;</td>
+                </tr>
+                <td>Price per year</td>
+                    <td>free</td>
+                    <td>$400</td>
+                    <td>$600</td>
+                    <td>$800</td>
+                </tr>
+            </tbody>
+        </table>
+        </main>
+
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="grid">
+            <div class="left">
+        <div>
+            <img
+            src="images/logodesign.png"
+            alt="Logo image"
+            width="150"> 
+        </div>
+        
+        <h3>
+            Osaka Chamber Commerce Virtual
+        </h3>
+        <p>
+            Osaka Castle 1988<br>
+            Universal Japan, SQL 1882
+        </p>
+        </div>
+        <div class="right">
+        <p>
+            nuel@kousei.org
+        </p>
+        <p>
+            +(82) 6789-3498
+        </p>
+        <p>
+            Location Map &#x1F4CC;
+        </p>
+        </div>
+        </div>
+        
+        <div class="small">
+            &copy;<span id="year"></span> Osaka Chamber Commerce <br> Immanuel Nggiku <br>
+            WDD 230 Project <br>
+            <div id="updates">
+                Last Updated: <span id="lastupdate"></span> <span id="time"></span>
+              </div>
+          </div>
+
+      <div class="medium">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project |<br>
+        <div id="updates">
+            Last Updated: <span id="lastupdate1"></span> <span id="time1"></span>
+      </div>
+      </div>
+
+      <div class="large">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project | 
+        <span id="updates">
+            Last Updated: <span id="lastupdate2"></span> <span id="time2"></span>
+        </span>
+      </div>
+   
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/thankyou.js"></script>
+  </body>
+  </html>

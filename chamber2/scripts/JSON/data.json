@@ -1,0 +1,77 @@
+{
+    "companies": [
+      {
+        "name" : "Nippon Kanzai Environment Service Co., Ltd",
+        "address" : "Midosuji MTR Building 5F, 3-6-3 Awajicho , Chuo-ku, Osaka 541-0047",
+        "phone" : "06-6563-7350",
+        "website": "http://www.nkks.co.jp/",
+        "icon": "http://www.nkks.co.jp/images/logo.png",
+        "level": "Bronze"
+      },
+      {
+        "name" : "Nippon Kanzai Housing Management Co., Ltd",
+        "address" : "Awajicho Building 21, 3-1-5 Awajicho, Chuo-ku, Osaka 541-0047",
+        "phone" : "06-6229-6606",
+        "website" : "https://www.j.nkanzai.co.jp/",
+        "icon": "https://www.j.nkanzai.co.jp/images/header/logo.png",
+        "level": "Gold"
+      },
+      {
+        "name" : "NJK Staff Service Co., Ltd",
+        "address" : "3-1-5 Awajicho , Chuo-ku, Osaka 541-0047",
+        "phone" : "06-6229-6161",
+        "website" : "https://www.njkss.co.jp/",
+        "icon": "https://www.njkss.co.jp/images/circleImg01.png",
+        "level": "Gold"
+      },
+      {
+        "name" : "Three-S Co., Ltd",
+        "address" : "Shibuya-ku, Tokyo [Registered Office] Nishinomiya City, Hyogo Pref",
+        "phone" : "0798-33-4500",
+        "website" : "https://www.3-s.co",
+        "icon": "https://www.3-s.co.jp/wp-content/themes/threeS/common/images/kv.jpg",
+        "level": "Silver"
+      },
+      {
+        "name" : "Tokyo Capital Management Co., Ltd",
+        "address" : "Minato-ku, Tokyo",
+        "phone" : "0798-22-8000",
+        "website" : "https://www.tokyo-capital.com/en/",
+        "icon": "https://www.tokyo-capital.com/en/wp-content/themes/tokyo-capital-html/dist/assets/images/logo.png",
+        "level": "Bronze"
+      },
+      {
+        "name" : "NS Corporation Co., Ltd",
+        "address" : "Minato-ku, Tokyo",
+        "phone" : "0798-22-7850",
+        "website" : "https://nscp.co.jp/",
+        "icon": "https://nscp.co.jp/assets/images/common/header_logo.svg",
+        "level": "Silver"
+      },
+      {
+        "name" : "Japan Environmental Solutions, Ltd",
+        "address" : "Chuo-ku, Tokyo",
+        "phone" : "0798-99-8560",
+        "website" : "http://www.jesol.co.jp/",
+        "icon": "http://www.jesol.co.jp/zu221.jpg",
+        "level": "Bronze"
+      },
+      {
+        "name" : "Okinawa Nippon Kanzai Co., Ltd",
+        "address" : "Naha City, Okinawa Pref.",
+        "phone" : "0798-89-9846",
+        "website" : "http://okinawa.nkanzai.co.jp/",
+        "icon": "http://okinawa.nkanzai.co.jp/images/nk-okinawa-logo.gif",
+        "level": "Gold"
+      },
+      {
+        "name" : "Neotrust Co., Ltd",
+        "address" : "Taito-Ku, Tokyo",
+        "phone" : "0798-88-6325",
+        "website" : "https://www.neotrust.co.jp/",
+        "icon": "https://www.neotrust.co.jp/img/main_v_01.jpg",
+        "level": "Non Profit"
+      }
+    ]
+}
+      

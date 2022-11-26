@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Commerce Wdd 230</title>
+    <meta
+      name="description"
+      content="Chamber Home Page Build in WDD 230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel = "shortcut icon" href = "images/logodesign.png">
+  </head>
+  
+  <body>
+    <div id="bannertemp">
+        <p>Join and Meet Us On Wednesday 8 PM</p>
+    </div>
+    <header>
+        <div class="logo">
+            <img
+              src="images/logodesign.png"
+              alt="Logo image"
+              width="100" 
+              
+            >
+          </div>
+          <div class="icon"><a href="http://www.facebook.com" target="_blank"><img src="images/facebook_icon.png" alt="Facebook icon" width="30"></a></div>
+    <div class="twitter_icon"><a href="http://www.instagram.com" target="_blank"><img src="images/inst.png" alt="Instagram icon" width="30"></a></div>
+    
+    
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul id="primaryNav">
+            <li class="active"><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="discover.html">Discover</a></li>
+            <li class="active"><a class="nav-link" href="directory.html">Directory</a></li>
+            <li class="join"><a class="nav-link" href="join.html">Join</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>     
+        </ul>
+    </nav>
+        
+    </header>
+
+    <div id="banner">
+        <img src="images/logopake.jpeg" width="100%" alt="City image"> 
+        <div id="info">
+         <h2>Osaka Chamber Commerce Virtual</h2>
+         <p id="today"></p>
+        </div>
+     </div>
+    <!-- MAIN GOES HERE -->
+    <main>
+        <section id="hero">
+            <picture>
+            <!-- <img src="images/hero1.jpg" alt="hero image" width="100%" height="100%"> -->
+                <source media="(max-width: 500px)" srcset="images/small1.jpg">
+                <source media="(max-width: 1023px)" srcset="images/medium1.jpg">
+                <img src = "images/discover/new/discover7.jpeg" width="100%" height="100%" alt="hero image">
+            <div id="button"><a href = "join.html" target="_blank"><button>JOIN US</button></a></div>
+        </picture>
+        </section>
+
+        <section id="event">
+          <img src = "images/discover/new/osakacastle.jpg" alt="restaurant picture" width = "100%" height="100%"> <br>
+          <div id="eventInfo">
+            <div class="flex"><img src="images/discover/new/osaka.jpg" alt="logo restaurant" width="160"> <br>
+            <p>OSAKA<br><br><b id="restWeek">DINNER WEEK</b>
+            </p></div>
+            <p id="dateRest">DECEMBER 18</p>
+            <p>Osaka Chamber Commerce Virtual</p>
+          </div>
+        </section>
+
+        <section id="weather">
+            <h2>Weather</h2>
+            <div class="temp"><img alt="weather logo" width="120">
+            <p id="weatherTemp"></p></div>
+            <p id="cloudy"></p>
+            <div class="weatherGrid">
+                <p >Wind Speed:</p>
+                <p><span id="windspeed">km/h</p> 
+                <p>Wind Chill:</p>
+                <p><span class="windchill"></span></p>
+            </div>
+            <p id="credit"><em>*Weather data source: www.openweathermap.org</em></p>
+        </section>
+
+        <section id="news">
+            <h2>News Line Agent</h2>
+            <p>Dōtonbori or Dōtombori (道頓堀, pronounced [doːtomboɾi]) is one of the principal tourist destinations in Osaka, Japan, running along the Dōtonbori canal from Dōtonboribashi Bridge to Nipponbashi Bridge in the Namba district of the city's Chuo ward. Historically a theater district, it is now a popular nightlife and entertainment area characterized by its eccentric atmosphere and large illuminated signboards.
+
+                One of the area's most prominent features, a billboard for confectionery company Glico displaying the image of a runner crossing a finishing line, is seen as an icon of Osaka within Japan.
+        </p>
+        </section>
+
+        <div id="spotlights">
+        <section id="spotlight1">
+            <h2>Scholarship Education</h2>
+            <div><img src="images/discover/new/osakamap.jpg" alt="book logo" width="220"></div>
+            <p><em>Getting The Best Education in Osaka Japan</em></p>
+            <p>edu@osaka.com</p>
+            <p>+82-7899-9087 | https://www.osaka-u.ac.jp/en</p>
+        </section>
+
+        <section id="spotlight2">
+            <h2>Bussiness News</h2>
+            <div><img src="images/discover/new/osakacity.jpg" alt="government logo" width="150"></div>
+            <p><em>The Best Place to Invest and Make money in Osaka Japan </em></p>
+            <p>gov@osaka.com</p>
+            <p>+899-434-32-56 |https://o-bic.net/</p>
+        </section>
+
+        <section id="spotlight3">
+            <h2>Connecting</h2>
+            <div><img src="images/discover/new/discover5.jpeg" alt="networking logo" width="180"></div>
+            <p><em>Buiulding The Best Connection in our Bussiness Trip </em></p>
+            <p>network@osaka.com</p>
+            <p>+899-434-32-56 | https://www.tripadvisor.com/</p>
+        </section>
+    </div>
+
+        <section id="join">
+            <a href="join.html" target="_blank"><button>Join Us!</button></a>
+            <p>Join our business and get much money</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="grid">
+            <div class="left">
+        <div>
+            <img
+            src="images/logodesign.png"
+            alt="Logo image"
+            width="150"> 
+        </div>
+        
+        <h3>
+            Osaka Chamber Commerce Virtual
+        </h3>
+        <p>
+            Osaka Castle 1988<br>
+            Universal Japan, SQL 1882
+        </p>
+        </div>
+        <div class="right">
+        <p>
+            nuel@kousei.org
+        </p>
+        <p>
+            +(82) 6789-3498
+        </p>
+        <p>
+            Location Map &#x1F4CC;
+        </p>
+        </div>
+        </div>
+        
+        <div class="small">
+            &copy;<span id="year"></span> Osaka Chamber Commerce <br> Immanuel Nggiku <br>
+            WDD 230 Project <br>
+            <div id="updates">
+                Last Updated: <span id="lastupdate"></span> <span id="time"></span>
+              </div>
+          </div>
+
+      <div class="medium">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project |<br>
+        <div id="updates">
+            Last Updated: <span id="lastupdate1"></span> <span id="time1"></span>
+      </div>
+      </div>
+
+      <div class="large">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project | 
+        <span id="updates">
+            Last Updated: <span id="lastupdate2"></span> <span id="time2"></span>
+        </span>
+      </div>
+   
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+  </html>
