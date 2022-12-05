@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Contact Page in WDD 230</title>
+    <meta
+    name="description"
+    content="Chamber Join Page in WDD 230">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/medium.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+  <link rel = "shortcut icon" href = "images/logodesign.png">
+  </head>
+  
+  <body>
+    <header>
+        <div class="logo">
+            <img
+              src="images/logodesign.png"
+              alt="Logo image"
+              width="100" 
+              
+            ></a>
+          </div>
+        </div>
+        <div class="icon"><a href="http://www.facebook.com" target="_blank"><img src="images/facebook_icon.png" alt="Facebook icon" width="30"></a></div>
+  <div class="twitter_icon"><a href="http://www.instagram.com" target="_blank"><img src="images/inst.png" alt="Instagram icon" width="30"></a></div>
+  
+  
+    
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul id="primaryNav">
+            <li class="active"><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="discover.html">Discover</a></li>
+            <li class="active"><a class="nav-link" href="directory.html">Directory</a></li>
+            <li class="join"><a class="nav-link" href="join.html">Join</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>     
+        </ul>
+    </nav>
+        
+    </header>
+
+    <div id="banner">
+        <img src="images/logopake.jpeg" width="100%" alt="City image"> 
+        <div id="info">
+         <h2>Osaka Chamber Commerce Virtual</h2>
+         <p id="today"></p>
+        </div>
+     </div>
+
+     <!-- MAIN -->
+        <main id="contact">
+            <!-- <img class="contactimage" src="images/hands.jpg" alt="contact image"> -->
+            <div id="contactgrid">
+            <div id="contactform">
+                <form method="get" action="thankyou1.html">
+                    <h2 class="hr-lines" id="hr1">Contact Us</h2>
+                    <fieldset>
+                        <label class="top">&nbsp;&nbsp;First name<span class="red">*</span> <input type="text" name="fname" id="fname" required></label>
+                        <label class="top">&nbsp;&nbsp;Last name<span class="red">*</span><input type="text" name="lname" id="lname" required></label>
+                        <label class="top">&nbsp;&nbsp;Email<span class="red">*</span> <input type="email" name="email" placeholder="example@gmail.com" id="email" required></label>
+                        <label class="top">&nbsp;&nbsp;Phone <input type="tel" name="phone" placeholder="1235551234" id="phone"></label> 
+                        <label class="top" id="description">&nbsp;&nbsp;<span class ="tooltip">&nbsp;Message<span class="red">*</span><span class="blue">&#9432;</span><span class="tooltiptext"> What can we do for you?</span></span><br> <textarea name="description" rows="8" id="description1" required></textarea></label>
+                        <input type="submit" value="Get in Touch" class="submitBtn" onclick="getDate(), getInfo()">
+                    </fieldset>
+                    </form>
+                    </div> 
+
+            <div id="contactInfo">
+                <h2 class="hr-lines" id="hr2">Visit Us</h2>
+
+                <div class="contactflex">
+           <div><p>Osaka Castle 1988
+         <br>
+         Universal Japan, SQL 1882</p> 
+            <p>
+                Saturday – Sunday: 10:00 a.m. to 8:00 p.m.  
+            </p>
+            </div>
+            <div class="iframe">
+                <iframe width="900" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Osaka%20+(Osaka)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+
+            </div>
+            </div>
+            </div> <hr>
+
+            <div class="pointcont">
+
+              <h2 class="hr-lines" id="hr3">Contact Information</h2> 
+              <div>
+                <p>
+                    <img src="images/discover/new/discover12.jpeg" width="150" alt="Jk Rowling" ><br>
+                    <span class="bold">Jk. Rowling</span><br>
+                    President<br>
+                    (979) 895-8456<br>
+                    JKrown@osaka.org<br>
+                </p>
+                </div>
+                
+                <div>
+                <p>
+                    <img src="images/discover/new/discover17.jpeg" width="150" alt="Kousei" ><br>
+                    <span class="bold">Kousei</span><br>
+                    Manager<br>
+                    (979) 748-8518<br>
+                    kousei@osaka.org
+                </p>
+            </div>
+             <div>  
+            <p>
+                    <img src="images/discover/new/discover16.jpeg" width="150" alt="Nuel" ><br>
+                    <span class="bold">Nuel</span><br>
+                    Event Manager<br>
+                    (979) 885-9954<br>
+                    nuel@osaka.org
+                </p></div>
+
+                <div>
+                <p>
+                    <img src="images/discover/new/discover18.jpeg" width="150" alt="Tomoki" ><br>
+                    <span class="bold">Tomoki</span><br>
+                    Hotel Manager<br>
+                    (979) 878-8546<br>
+                    tomoki@osaka.org
+                </p>
+                </div>
+            </div>
+        </div>
+        </main>
+ 
+     
+
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="grid">
+            <div class="left">
+        <div>
+            <img
+            src="images/logodesign.png"
+            alt="Logo image"
+            width="150"> 
+        </div>
+        
+        <h3>
+            Osaka Chamber Commerce Virtual
+        </h3>
+        <p>
+            Osaka Castle 1988<br>
+            Universal Japan, SQL 1882
+        </p>
+        </div>
+        <div class="right">
+        <p>
+            nuel@kousei.org
+        </p>
+        <p>
+            +(82) 6789-3498
+        </p>
+        <p>
+            Location Map &#x1F4CC;
+        </p>
+        </div>
+        </div>
+        
+        <div class="small">
+            &copy;<span id="year"></span> Osaka Chamber Commerce <br> Immanuel Nggiku <br>
+            WDD 230 Project <br>
+            <div id="updates">
+                Last Updated: <span id="lastupdate"></span> <span id="time"></span>
+              </div>
+          </div>
+
+      <div class="medium">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project |<br>
+        <div id="updates">
+            Last Updated: <span id="lastupdate1"></span> <span id="time1"></span>
+      </div>
+      </div>
+
+      <div class="large">
+        &copy;<span id="year"></span> Osaka Chamber Commerce | Immanuel Nggiku |
+        WDD 230 Project | 
+        <span id="updates">
+            Last Updated: <span id="lastupdate2"></span> <span id="time2"></span>
+        </span>
+      </div>
+   
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/thankyou.js"></script>
+  </body>
+  </html>
