@@ -163,9 +163,9 @@ main .hero h1 {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color:#f23557;
   font-weight: bold;
-  -webkit-text-fill-color: #eee;
+  -webkit-text-fill-color: #f23557;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: #333;
 }
@@ -192,7 +192,7 @@ article.card,
   cursor: pointer;
   overflow: hidden;
   max-width: 600px;
-  border: 2px solid #333;
+  border: 2px solid #f0d43a;
   border-radius: 2px;
   transition: box-shadow .3s;
 }
@@ -254,7 +254,7 @@ article.card,
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: hsla(0, 0%, 93%, 0.7);
+  background-color: #22b2da(0, 0%, 93%, 0.7);
   border-radius: 4px;
   padding: 1rem;
 }
@@ -307,12 +307,12 @@ article.card,
 .weather-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  background-color: #ffd60a;
+  background-color: #22b2da;
   padding: 1rem;
 }
 
 .weather-container article{
-  background-color: hsla(0, 0%, 93%, 0.7);
+  background-color: #22b2da(0, 0%, 93%, 0.7);
   padding: 1rem;
   margin: 1rem;
   border-radius: 4px;
@@ -355,7 +355,7 @@ article.card,
 
 footer{
   margin-top: 2rem;
-  background-color: #eee;
+  background-color: #f5ebeb;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -399,7 +399,7 @@ footer ul li, .social-media ul li{
 footer .copyright {
   margin-top: 1rem;
   width: 100%;
-  border-top: 1px solid #333;
+  border-top: 1px solid #f5ebeb;
   text-align: center;
 }
 
