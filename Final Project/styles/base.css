@@ -32,13 +32,11 @@ header {
   background-color: #ffd60a;
   border-radius: 50%;
   padding: 0.5rem;
-  cursor: pointer;
   width: 100px;
   height: 100px;
 }
 
 .logo p {
-  cursor: pointer;
   margin-top: 0;
   font-weight: bold;
   color: #333333;
@@ -163,9 +161,9 @@ main .hero h1 {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:#f23557;
+  color: #fff;
   font-weight: bold;
-  -webkit-text-fill-color: #f23557;
+  -webkit-text-fill-color: #eee;
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: #333;
 }
@@ -192,7 +190,7 @@ article.card,
   cursor: pointer;
   overflow: hidden;
   max-width: 600px;
-  border: 2px solid #f0d43a;
+  border: 2px solid #333;
   border-radius: 2px;
   transition: box-shadow .3s;
 }
@@ -254,7 +252,7 @@ article.card,
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #22b2da(0, 0%, 93%, 0.7);
+  background-color: hsla(0, 0%, 93%, 0.7);
   border-radius: 4px;
   padding: 1rem;
 }
@@ -307,12 +305,12 @@ article.card,
 .weather-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  background-color: #22b2da;
+  background-color: #ffd60a;
   padding: 1rem;
 }
 
 .weather-container article{
-  background-color: #22b2da(0, 0%, 93%, 0.7);
+  background-color: hsla(0, 0%, 93%, 0.7);
   padding: 1rem;
   margin: 1rem;
   border-radius: 4px;
@@ -355,7 +353,7 @@ article.card,
 
 footer{
   margin-top: 2rem;
-  background-color: #f5ebeb;
+  background-color: #eee;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -399,7 +397,7 @@ footer ul li, .social-media ul li{
 footer .copyright {
   margin-top: 1rem;
   width: 100%;
-  border-top: 1px solid #f5ebeb;
+  border-top: 1px solid #333;
   text-align: center;
 }
 
@@ -530,6 +528,7 @@ form label.top input:required:valid, form label.top select:required:valid {
 }
 
 .fresh-container .list li{
+  word-wrap: break-word;
   width: 100%;
   max-width: 350px;
   list-style-type: none;
@@ -589,5 +588,37 @@ form label.top input:required:valid, form label.top select:required:valid {
 .about .card-none .card-info{
   background-color: #eee;
   height: 100%;
+}
+
+.map{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.map-content{
+  max-width: 600px;
+  text-align: center;
+}
+
+.map .map-info{
+  text-align: left;
+}
+
+.map .map-info-title{
+  margin-bottom: -0.5rem;
+}
+
+.map .map-info span{
+  font-weight: bold;
+}
+
+.map iframe{
+  border-radius: 4px;
+  border: 2px solid #333;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
 }
 /* Poner el icono chiquitito en todas las paginas */
